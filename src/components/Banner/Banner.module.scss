@@ -1,0 +1,27 @@
+@import 'styles/__variaveis.scss';
+
+.banner{
+    display: flex;
+    background-color: $amareloForte;
+    justify-content: space-between;
+    &__info{
+        padding: $marginFour;
+        display: flex;
+        flex-direction: column;
+        gap: $marginFive;
+        &__h1{
+            font-size: $h1Font;
+        }
+        &__h4{
+            font-size: $h3Font;
+        }
+        &__btn{
+            cursor: pointer;
+            background-color: #73D677;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            max-width: max-content;
+        }
+    }
+}

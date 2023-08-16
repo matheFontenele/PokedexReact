@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Pokedex com React JS e SASS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tecnologias e bibliotecas React usadas
 
-In the project directory, you can run:
 
-### `npm start`
+### `SASS`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O SASS é uma linguagem de extensão do CSS, a sigla significa “Syntactically Awesome Style Sheets” traduzindo ao pé da letra, folhas de estilo com uma sintaxe incrível. A sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções variadas que iremos comentar. O SASS tem como objetivo tornar o processo de desenvolvimento mais simples e eficiente, agora, veremos alguns exemplos da versatilidade dessa tecnologia.\
+Saiba mais em [SASS](https://www.ufsm.br/pet/sistemas-de-informacao/2021/09/22/o-que-e-sass-venha-entender-esse-novo-metodo-de-escrever-css)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### `AXIOS`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O Axios é um biblioteca que permite uma integração do seu projeto React para qualquer serviço de API disponível. Ele é uma biblioteca leve e também uma alternativa para quem usa o fetch api.\
 
-### `npm run build`
+Saiba mais em [Bliblioteca IMask](https://github.com/axios/axios)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `React Router`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O React Router Dom é uma biblioteca para o React criada com o objetivo de resolver problemas de rotas para as páginas de um site e tornar o desenvolvimento muito mais simples e escalável. Com ela, podemos declarar caminhos do nosso site para renderizar componentes e até mesmo resolver parâmetros na URL.\
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Saiba mais em [Biblioteca Router Dom](https://reactrouter.com/en/main)
 
-### `npm run eject`
+### `ClassNames`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Alternatively, you can simply include index.js on your page with a standalone <script> tag and it will export a global classNames method, or define the module if you are using RequireJS.\
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Saiba mais em [Biblioteca Router Dom](https://www.npmjs.com/package/classnames)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

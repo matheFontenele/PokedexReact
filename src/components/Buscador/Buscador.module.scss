@@ -1,0 +1,9 @@
+@import 'styles/__variaveis.scss';
+
+.buscador{
+    width: 100%;
+    padding: 8px 16px;
+    box-shadow: $boxshadow;
+    border: none;
+    margin: $marginFive 0;
+}

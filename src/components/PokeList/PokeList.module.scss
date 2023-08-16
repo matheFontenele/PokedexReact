@@ -1,0 +1,158 @@
+@import 'styles/__variaveis.scss';
+
+.pokedex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.pokemon{
+    display: flex;
+    width: 352.252px;
+    height: max-content;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: $boxshadow;
+    &__pokedetals{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 10px 26px;
+        width: 40%;
+        &__name{
+            text-transform:capitalize;
+        }
+    }
+    &__boximg{
+        display: flex;
+        justify-content: center;
+        z-index: -1;
+        width: 60%;
+        height: 136.862px;
+        &__img{
+            width: 150px;
+        }
+        &__normal{
+            background-color: $normal;
+        }
+        &__fire{
+            background-color: $fire;
+        }
+        &__water{
+            background-color: $water;
+        }
+        &__grass{
+            background-color: $grass;
+        }
+        &__flying{
+            background-color: $flying;
+        }
+        &__fighting{
+            background-color: $fighting;
+        }
+        &__poison{
+            background-color: $poison;
+        }
+        &__electric{
+            background-color: $electric;
+        }
+        &__ground{
+            background-color: $ground;
+        }
+        &__rock{
+            background-color: $rock;
+        }
+        &__psychic{
+            background-color: $psychic;
+        }
+        &__ice{
+            background-color: $ice;
+        }
+        &__bug{
+            background-color: $bug;
+        }
+        &__ghost{
+            background-color: $ghost;
+        }
+        &__steel{
+            background-color: $steel;
+        }
+        &__dragon{
+            background-color: $dragon;
+        }
+        &__dark{
+            background-color: $dark;
+        }
+        &__fairy{
+            background-color: $fairy;
+        }
+    }
+}
+
+.types{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    &__type{
+        padding: 5px 0;
+        width: 65px;
+        text-align: center;
+        border-radius: 10px;
+        &__normal{
+            background-color: $normal;
+        }
+        &__fire{
+            background-color: $fire;
+        }
+        &__water{
+            background-color: $water;
+        }
+        &__grass{
+            background-color: $grass;
+        }
+        &__flying{
+            background-color: $flying;
+        }
+        &__fighting{
+            background-color: $fighting;
+        }
+        &__poison{
+            background-color: $poison;
+        }
+        &__electric{
+            background-color: $electric;
+        }
+        &__ground{
+            background-color: $ground;
+        }
+        &__rock{
+            background-color: $rock;
+        }
+        &__psychic{
+            background-color: $psychic;
+        }
+        &__ice{
+            background-color: $ice;
+        }
+        &__bug{
+            background-color: $bug;
+        }
+        &__ghost{
+            background-color: $ghost;
+        }
+        &__steel{
+            background-color: $steel;
+        }
+        &__dragon{
+            background-color: $dragon;
+        }
+        &__dark{
+            background-color: $dark;
+        }
+        &__fairy{
+            background-color: $fairy;
+        }
+    }
+}
