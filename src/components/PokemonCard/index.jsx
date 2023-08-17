@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
 import styles from '../PokeList/PokeList.module.scss'
 
-export default function Pokemon({key, pokemon, img, classe, types, numero}){
+export default function PokemonCard({key, pokemon, img, classe, types, numero, id}){
     return(
-        <div key={key} className={styles.pokemon}>
+        <Link to={`/pokedex/${id}`}>
+         <div key={key} className={styles.pokemon}>
                 <div className={styles.pokemon__pokedetals}>
                     <h1 className={styles.pokemon__pokedetals__name}>{pokemon}</h1>
                     <div className={styles.types}>
@@ -13,6 +15,8 @@ export default function Pokemon({key, pokemon, img, classe, types, numero}){
                 <div className={classe}>
                     <img className={styles.pokemon__boximg__img} src={img} alt='teste'/>
                 </div>
-            </div> 
+            </div>
+        </Link>
+        
     )
 }

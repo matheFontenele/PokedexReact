@@ -1,0 +1,33 @@
+@import 'styles/__variaveis.scss';
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $vermelho;
+    padding: 50px 0;
+    &__img{
+        position: absolute;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        &__title{
+            font-size: 650px;
+            color: #50140f;
+        }
+        &__text{
+            font-size: $h3Font;
+        }
+        &__btn{
+            background-color: $amareloFraco;
+            border: none;
+            width: 150px;
+            padding: 10px 0;
+            border-radius: 10px;
+            align-self: center;
+        }
+    }
+}

@@ -6,3 +6,7 @@
   text-decoration: none;
   font-family: 'Karla', sans-serif;
 }
+
+button{
+  cursor: pointer;
+}

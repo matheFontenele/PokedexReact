@@ -1,0 +1,18 @@
+@import 'styles/__variaveis.scss';
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: $marginFive;
+    align-items: center;
+    &__link{
+        color: $preto;
+        text-decoration: none;
+        font-family: $fontPrincipal;
+        font-size: $h4Font;
+        padding-bottom: 15px;
+        &__ativo{
+            border-bottom: 3px solid $preto;
+        }
+    }
+}

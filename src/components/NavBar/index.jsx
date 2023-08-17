@@ -1,11 +1,36 @@
-import { Link } from "react-router-dom";
+import classNames from "classnames";
+import { Link, useLocation } from "react-router-dom";
+import styles from './NavBar.module.scss';
 
-export default function NavBar({navClass, linkClass}){
+export default function NavBar(){
+    const local = useLocation();
+
     return(
-        <nav className={navClass}>
-            <Link className={linkClass} to='/'>Home</Link>
-            <Link className={linkClass} to='/pokedex'>Pokedex</Link>
-            <Link className={linkClass} to='/lendarios'>Lendarios</Link>
+        <nav className={styles.nav}>
+            <Link 
+                className={classNames({
+                [styles.nav__link]: true,
+                [styles.nav__link__ativo]: local.pathname === '/'
+            })} 
+                to='/'>
+                    Home
+            </Link>
+            
+            <Link className={classNames({
+                [styles.nav__link]: true,
+                [styles.nav__link__ativo]: local.pathname === '/pokedex'
+            })} 
+                to='/pokedex'>
+                    Pokedex
+            </Link>
+            
+            <Link className={classNames({
+                [styles.nav__link]: true,
+                [styles.nav__link__ativo]: local.pathname === '/lendarios'
+            })} 
+                to='/lendarios'>
+                    Lendarios
+            </Link>
         </nav>
     )
 }
