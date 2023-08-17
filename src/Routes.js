@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import Error from "pages/Error";
 import Home from "pages/Home";
+import Lendarios from "pages/Lendarios";
 import PaginaPadrao from "pages/PaginaPadrao";
 import Pokedex from "pages/Pokedex";
 import Pokemon from "pages/Pokemon";
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="pokedex" element={<Pokedex/>}/>
           <Route path="pokedex/:id" element={<Pokemon/>}/>
+          <Route path="lendarios" element={<Lendarios/>}/>
         </Route>
         
         <Route path="*" element={<Error/>}/>

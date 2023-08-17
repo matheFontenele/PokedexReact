@@ -18,7 +18,7 @@ export default function PokeList(){
 
     function getPokemons(){
         let endpoints = []
-        for(let i = 1; i <= 50; i++){
+        for(let i = 1; i <= 10; i++){
             endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}/`)
         }
         let response = axios.all(endpoints.map((endpoint) => axios.get(endpoint)))
